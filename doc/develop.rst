@@ -384,9 +384,7 @@ Also, activate QuarkDB namespace plugin usage and set other parameters as desire
 
 .. code-block:: bash
 
-    #mgmofs.nslib /usr/lib64/libEosNsInMemory.so
     mgmofs.nslib /usr/lib64/libEosNsQuarkdb.so
-
     mgmofs.instance eostest
 
 Once done, backup the result to have it available after the next reinstallation of recompiled EOS:
